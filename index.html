@@ -37,6 +37,15 @@ a.cover-feature,a.story-tile{text-decoration:none} .story-tile.new-topic{backgro
 .cover-copy h1{text-wrap:balance}.cover-feature{border:1px solid #dce7f3}.cover-meta{margin-top:26px}.section-head{border-top:1px solid #e8eef6;padding-top:30px}.collection-count{display:inline-block;vertical-align:middle;margin-left:10px;padding:5px 9px;font:600 11px/1.4 Inter,system-ui,sans-serif;letter-spacing:0;color:#47709f;background:#f0f5fc;border-radius:20px}.story-tile{min-height:310px}.story-tile .tile-copy{gap:14px;font-size:clamp(23px,2.5vw,29px)}.tile-copy strong{text-wrap:balance;line-height:1.18;letter-spacing:-.02em}.story-tile small{font-size:9px;letter-spacing:.07em}.story-tile:focus-visible{outline:3px solid #225ed5;outline-offset:5px}.cover-feature:focus-visible{outline-offset:5px}.photo-credits{padding:18px 0}.photo-credits summary{min-height:30px;display:list-item}.footer{line-height:1.8}.topic-photo{transition:transform .35s ease}.new-topic:hover .topic-photo{transform:scale(1.035)}
 @media(max-width:760px){.section-head{padding-top:24px}.story-tile{min-height:270px}.story-tile .tile-copy{font-size:28px}.cover-copy h1{font-size:clamp(34px,8.5vw,44px)}.cover-intro{margin-top:28px}.cover-meta{margin-top:22px}.collection-count{margin-left:7px}}
 .inspiration-card{position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:space-between;min-height:350px;padding:32px;border:1px solid #dce7f3;border-radius:16px;background:linear-gradient(145deg,#f1f6ff,#e3edff);color:#172d4a}.inspiration-card:after{content:"";position:absolute;right:-80px;bottom:-125px;width:300px;height:300px;border:1px solid #225ed520;border-radius:50%;box-shadow:0 0 0 32px #225ed508,0 0 0 64px #225ed506;pointer-events:none}.inspiration-label{font-size:10px;font-weight:800;letter-spacing:.16em;color:#225ed5}.inspiration-mark{position:absolute;right:28px;top:30px;font:110px/1 Georgia,serif;color:#225ed51c}.inspiration-card blockquote{position:relative;z-index:1;margin:28px 0}.inspiration-card blockquote p{margin:0 0 18px;font:500 clamp(32px,4vw,45px)/1.15 Georgia,serif;letter-spacing:-.025em}.inspiration-card blockquote footer{font-size:14px;color:#536b8d}.inspiration-note{position:relative;z-index:1;font-size:12px;color:#536b8d}@media(max-width:760px){.inspiration-card{min-height:290px;padding:26px}.inspiration-card blockquote p{font-size:36px}}
+
+/* Scenic backdrop for the reading inspiration */
+.inspiration-card{background:#243d59 url('assets/cappadocia.jpg') center 55%/cover no-repeat;color:#fff;isolation:isolate}
+.inspiration-card:before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(110deg,rgba(10,27,49,.86),rgba(10,27,49,.55))}
+.inspiration-card:after{display:none}
+.inspiration-label{color:#e1ecff}
+.inspiration-mark{color:#ffffff30}
+.inspiration-card blockquote p{color:#fff;text-shadow:0 2px 14px #0005}
+.inspiration-card blockquote footer,.inspiration-note{color:#edf3ff}
 </style>
 </head>
 <body>
